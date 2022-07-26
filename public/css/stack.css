@@ -26,9 +26,9 @@
   height: 100px;
   display: flex;
   justify-content: flex-start;
-  bottom: 200px; left: 50%;
+  /* bottom: 200px; left: 50%;
   transform: translateX(-50%);
-  transition: all 1s ease-in;
+  transition: all 1s ease-in; */
 }
 .stack_apps .app_img {
   width: 100px;
@@ -70,47 +70,47 @@
 .stack_apps:hover .app_scouter .bar {
   opacity: 1;
 }
-.computer:hover .python {
+.python {
   top: 120px; left: 160px;
 }
-.computer:hover .html5 {
+.html5 {
   top: 280px; left: 120px;
 }
-.computer:hover .nodejs {
+.nodejs {
   top: 440px; left: 20px;
 }
-.computer:hover .expressjs {
+.expressjs {
   top: 415px; left: 275px;
 }
-.computer:hover .heroku {
+.heroku {
   top: 590px; left: 50px;
 }
-.computer:hover .git {
+.git {
   top: 720px; left: 100px;
 }
-.computer:hover .firebase {
+.firebase {
   top: 250px; left: 400px;
 }
-.computer:hover .github {
+.github {
   top: 350px; right: 400px;
 }
-.computer:hover .vscode {
+.vscode {
   top: 250px; right: 330px;
 }
-.computer:hover .sublime {
+.sublime {
   width: 220px;
   top: 120px; right: 100px;
 }
-.computer:hover .mysql {
+.mysql {
   top: 250px; right: 50px;
 }
-.computer:hover .javascript {
+.javascript {
   top: 400px; right: 80px;
 }
-.computer:hover .css3 {
+.css3 {
   top: 530px; right: 220px;
 }
-.computer:hover .vuejs {
+.vuejs {
   top: 700px; right: 120px;
 }
 
