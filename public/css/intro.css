@@ -1,0 +1,236 @@
+/* intro 1st */
+.intro {
+  width: 100%; height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.intro_container {
+  position: relative;
+  max-width: 1280px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: "P22 Underground";
+}
+.intro_container::after {
+  content: "";
+  top: 180px; right: -400px;
+  position: absolute;
+  width: 1000px; height: 1000px;
+  border-radius: 50%;
+  background-color: #1B64DA;
+  z-index: 0;
+}.intro_container::before {
+  content: "";
+  top: 0px; right: 60px;
+  position: absolute;
+  width: 500px; height: 500px;
+  border-radius: 50%;
+  background-color: #333D4B;
+  z-index: 0;
+}
+.intro_container .intro_text {
+  margin-left: 217px; margin-top: 253px;
+  z-index: 10;
+}
+.intro_container .intro_text h1 {
+  color: #191F28;
+  font-size: 80px; font-weight: medium; 
+}
+.intro_container .intro_text .intro_count {
+  display: flex;
+  justify-content: space-around;
+}
+.intro_container .intro_text .intro_count div {
+  width: 196px; height: 100px;
+  background-color: #333D4B;
+  border-radius: 6px;
+  font-size: 32px; line-height: 100px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+.intro_container .intro_text .intro_count div:first-child {
+  margin-right: 20px;
+}
+.intro_img {
+  position: absolute;
+  bottom: 0px; right: -200px;
+  width: 800px; height: 800px;
+  background-image: url(../../public/img/profile1.png);
+  background-size: 100% auto;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+/* intro 2nd page */
+.intro2 {
+  width: 100%; height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.intro2_container {
+  position: relative;
+  max-width: 1280px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.intro2_left {
+  width: 433px; height: 100%;
+  padding-top: 140px; padding-left: 100px;
+  box-sizing: border-box;
+}
+.intro2_left .title {
+  font-family: "P22 Underground";
+}
+.intro2_left .title div {
+  display: flex;
+  align-items: flex-end;
+}
+.intro2_left .title div h1  {
+  font-size: 40px;
+  color: #333D4B;
+}
+.intro2_left .title div span  {
+  font-size: 96px;
+  line-height: 96px;
+  color: #1B64DA;
+  margin-right: 15px;
+}
+.intro2_left .title h2  {
+  font-size: 40px;
+  color: #6B7684;
+  line-height: 45px;
+}
+.intro2_right {
+  width: 847px;; height: 100%;
+  padding-top: 140px;
+  box-sizing: border-box;
+}
+.intro2_right .subject {
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: bold;
+  color: #191F28;
+  margin-bottom: 95px;
+}
+.intro2_right .subject span {
+  color: #1B64DA;
+}
+.intro2_right ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.intro2_right ul li {
+  width: 414px;
+}
+.intro2_right ul li .subtitle_first {
+  margin-bottom: 68px;
+}
+.intro2_right ul li .subtitle {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333D4B;
+  margin-bottom: 10px;
+}
+.intro2_right ul li p{
+  font-size: 16px;
+  color: #6B7684;
+}
+
+/* intro 3nd page */
+.intro3 {
+  width: 100%; height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.intro3_container {
+  position: relative;
+  max-width: 1280px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.intro3_left {
+  width: 433px; height: 100%;
+  padding-top: 140px; padding-left: 100px;
+  box-sizing: border-box;
+}
+.intro3_left .title {
+  font-family: "P22 Underground";
+}
+.intro3_left .title div {
+  display: flex;
+  align-items: flex-end;
+}
+.intro3_left .title div h1  {
+  font-size: 40px;
+  color: #333D4B;
+}
+.intro3_left .title div span  {
+  font-size: 96px;
+  line-height: 96px;
+  color: #1B64DA;
+  margin-right: 15px;
+}
+.intro3_left .title h2  {
+  font-size: 40px;
+  color: #6B7684;
+  line-height: 45px;
+}
+.intro3_right {
+  width: 847px;; height: 100%;
+  padding-top: 140px;
+  box-sizing: border-box;
+}
+.intro3_right .subject {
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: bold;
+  color: #191F28;
+  margin-bottom: 95px;
+}
+.intro3_right .subject span {
+  color: #1B64DA;
+}
+.intro3_right ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.intro3_right ul li {
+  width: 414px;
+}
+.intro3_right ul li .subtitle_first {
+  margin-bottom: 68px;
+}
+.intro3_right ul li .subtitle_box {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+.intro3_right ul li .subtitle {
+  display: inline-block;
+  font-size: 32px;
+  color: #333D4B;
+  font-family: "P22 Underground";
+}
+.intro3_right ul li span{
+  font-size: 14px;
+  font-weight: bold;
+  color: #1B64DA;
+  margin-left: 8px;
+}
+.intro3_right ul li p{
+  font-size: 16px;
+  color: #6B7684;
+}

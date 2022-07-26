@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "P22 Underground";
+  src: url(font/P22\ Johnston\ Underground\ Regular.ttf);
+}
+body {
+font-family: 'Noto Sans KR', sans-serif;
+}
+
+.mapsite {
+  display: none;
+}
+header {
+  width: 100%; height: 80px;
+  position: fixed;
+  padding: 16px 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+header .logo {
+  font-family: "P22 Underground";
+  font-size: 40px;
+  font-weight: 600;
+  color: #3182F6;
+  line-height: 48px;
+  cursor: pointer;
+}
+header .btn_nav {
+  width: 36px; height: 24px;
+  cursor: pointer;
+}
+header .btn_nav span {
+  display: block;
+  width: 36px; height: 4px;
+  background-color: #3182F6;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+header .btn_nav span:last-child {
+  margin-bottom: 0px;
+}
+
+.topbtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}

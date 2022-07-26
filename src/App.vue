@@ -1,5 +1,4 @@
 <template>
-  <div id="top"></div>
   <header>
     <div class="logo">bkKim.</div>
     <div class="btn_nav">
@@ -12,7 +11,7 @@
       <div class="btn_close"></div>
       <ul>
         <li v-on:click="gotointro">intro</li>
-        <li v-on:click="gotoskill">skills</li>
+        <li v-on:click="gotostack">stack</li>
         <li v-on:click="gotoproject">project</li>
         <li v-on:click="gotowebclone">webclone</li>
         <li v-on:click="gotocontact">contact</li>
@@ -20,7 +19,7 @@
     </nav>
   </header>
   <intro id="intro"></intro>
-  <skill id="skill"></skill>
+  <stack id="stack"></stack>
   <project id="project"></project>
   <webclone id="webclone"></webclone>
   <contact id="contact"></contact>
@@ -29,7 +28,7 @@
 
 <script>
 import intro from './components/intro.vue'
-import skill from './components/skill.vue'
+import stack from './components/stack.vue'
 import project from './components/project.vue'
 import webclone from './components/webclone.vue'
 import contact from './components/contact.vue'
@@ -44,7 +43,7 @@ export default {
       }
     },
     gotoskill() {
-      const contact = document.getElementById('skill')
+      const contact = document.getElementById('stack')
       if(contact) {
         contact.scrollIntoView({behavior : 'smooth'})
       }
@@ -76,36 +75,10 @@ export default {
   },
   components: {
     intro,
-    skill,
+    stack,
     project,
     webclone,
     contact
   }
 }
 </script>
-
-<style scoped>
-#top {
-  display: none;
-}
-.mapsite {
-  display: none;
-}
-header {
-  width: 100%; height: 80px;
-  background-color: aqua;
-  position: fixed;
-}
-header .logo {
-  font-family: "P22 Underground";
-  font-size: 40px;
-  font-weight: 600;
-  color: #3182F6;
-}
-
-.topbtn {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-}
-</style>

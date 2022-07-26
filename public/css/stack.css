@@ -1,0 +1,171 @@
+.stack {
+  width: 100%; height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #F9FAFB;
+}
+.stack_container {
+  position: relative;
+  max-width: 1280px;
+  height: 100%;
+  margin: auto;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+.stack_container h1 {
+  width: 100%;
+  font-family: "P22 Underground";
+  font-size: 58px;
+  color: #191F28;
+  text-align: center;
+}
+.stack_apps {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  bottom: 200px; left: 50%;
+  transform: translateX(-50%);
+  transition: all 1s ease-in;
+}
+.stack_apps .app_img {
+  width: 100px;
+  height: 100px;
+  background-size: 70% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.stack_apps .app_scouter {
+  opacity: 0;
+  width: 100px;
+  height: 80px;
+  padding: 10px 0;
+  transition: all 0.2s ease-in-out;
+}
+.stack_apps:hover .app_scouter {
+  opacity: 1;
+}
+.stack_apps .app_scouter p {
+  font-family: "P22 Underground";
+  font-size: 20px;
+  color: #333D4B;
+}
+.stack_apps .app_scouter .gauge {
+  display: flex;
+  justify-content: flex-start;
+}
+.stack_apps .app_scouter .bar {
+  opacity: 0;
+  width: 5px; height: 30px;
+  background-color: #1B64DA;
+  border-radius: 5px;
+  margin-right: 3px;
+  transition: all 0.5s ease-in-out;
+}
+.stack_apps .app_scouter .bar_off {
+  background-color: #B0B8C1;
+}
+.stack_apps:hover .app_scouter .bar {
+  opacity: 1;
+}
+.computer:hover .python {
+  top: 120px; left: 160px;
+}
+.computer:hover .html5 {
+  top: 280px; left: 120px;
+}
+.computer:hover .nodejs {
+  top: 440px; left: 20px;
+}
+.computer:hover .expressjs {
+  top: 415px; left: 275px;
+}
+.computer:hover .heroku {
+  top: 590px; left: 50px;
+}
+.computer:hover .git {
+  top: 720px; left: 100px;
+}
+.computer:hover .firebase {
+  top: 250px; left: 400px;
+}
+.computer:hover .github {
+  top: 350px; right: 400px;
+}
+.computer:hover .vscode {
+  top: 250px; right: 330px;
+}
+.computer:hover .sublime {
+  width: 220px;
+  top: 120px; right: 100px;
+}
+.computer:hover .mysql {
+  top: 250px; right: 50px;
+}
+.computer:hover .javascript {
+  top: 400px; right: 80px;
+}
+.computer:hover .css3 {
+  top: 530px; right: 220px;
+}
+.computer:hover .vuejs {
+  top: 700px; right: 120px;
+}
+
+.mysql .app_img {
+  background-image: url(../img/mysql.png);
+}
+.python .app_img {
+  background-image: url(../img/python.png);
+}
+.html5 .app_img {
+  background-image: url(../img/html5.png);
+}
+.nodejs .app_img {
+  background-image: url(../img/nodejs.png);
+}
+.expressjs .app_img {
+  background-image: url(../img/Express.png);
+}
+.heroku .app_img {
+  background-image: url(../img/heroku.png);
+}
+.git .app_img {
+  background-image: url(../img/git.png);
+}
+.firebase .app_img {
+  background-image: url(../img/firebase.png);
+}
+.github .app_img {
+  background-image: url(../img/github.png);
+}
+.vscode .app_img {
+  background-image: url(../img/vscode.png);
+}
+.sublime .app_img {
+  background-image: url(../img/sublime.png);
+}
+.sublime .app_scouter {
+  width: 120px;
+}
+.javascript .app_img {
+  background-image: url(../img/js.png);
+}
+.css3 .app_img {
+  background-image: url(../img/css3.png);
+}
+.vuejs .app_img {
+  background-image: url(../img/vue.png);
+}
+.computer {
+  width: 465px; height: 285px;
+  position: absolute;
+  bottom: 120px; left: 50%;
+  transform: translateX(-50%);
+  background-image: url(../img/computer.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
