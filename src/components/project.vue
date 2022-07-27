@@ -1,4 +1,11 @@
 <template>
+  <div class="black_bg" v-if="modal1 == true">
+    <div class="white_bg">
+      <button @click="modal1 = false">close</button>
+      <h4>모달창1</h4>
+      <p>모달 테스트</p>
+    </div>
+  </div>
 <!-- project 1 -->
   <section class="project">
     <article class="project_container">
@@ -9,8 +16,8 @@
           <span>개인 프로젝트</span>
         </li>
         <li>
-          <button>Mockup</button>
-          <button>Page Link</button>
+          <button class="pjt2_open" @click="modal1 = true">Mockup</button>
+          <button onclick="window.open('https://www.naver.com');">Page Link</button>
         </li>
       </ul>
       <div class="pjt_page">
@@ -34,6 +41,13 @@
     </article>
   </section>
 
+  <div class="black_bg" v-if="modal2 == true">
+    <div class="white_bg">
+      <button @click="modal2 = false">close</button>
+      <h4>모달창2</h4>
+      <p>모달 테스트</p>
+    </div>
+  </div>
 <!-- project 2 -->
   <section class="project">
     <article class="project_container">
@@ -44,11 +58,11 @@
           <span>팀 프로젝트 (3인 규모 / 약 37.5% 담당)</span>
         </li>
         <li>
-          <button>Mockup</button>
-          <button>Page Link</button>
+          <button class="pjt2_open" @click="modal2 = true">Mockup</button>
+          <button onclick="window.open('https://www.naver.com');">Page Link</button>
         </li>
       </ul>
-      <div class="pjt_page">
+      <div class="pjt_page pjt_page2">
         <img src="../../public/img/touslesjours.png" alt="">
       </div>
       <ul class="pjt_content">
@@ -71,12 +85,22 @@
 </template>
 
 <script>
+
 export default {
   name: 'project-page',
   components: {
-
+    
+  },
+  data() {
+    return {
+      modal1: false,
+      modal2: false,
+    };
   }
-}
 
+  
+  
+}
 </script>
+
 

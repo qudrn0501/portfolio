@@ -1,4 +1,6 @@
 <template>
+  
+
   <header>
     <div class="logo">bkKim.</div>
     <div class="btn_nav">
@@ -35,6 +37,11 @@ import contact from './components/contact.vue'
 
 export default {
   name: 'App',
+  data() {
+    return {
+      modal2 : false,
+    }
+  },
   methods: {
     gotointro() {
       const contact = document.getElementById('intro')
@@ -83,4 +90,5 @@ export default {
     contact
   }
 }
+
 </script>
