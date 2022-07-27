@@ -1,9 +1,8 @@
 <template>
   <div class="black_bg" v-if="modal1 == true">
     <div class="white_bg">
-      <button @click="modal1 = false">close</button>
-      <h4>모달창1</h4>
-      <p>모달 테스트</p>
+      <div @click="modal1 = false"></div>
+      <img src="../../public/img/pj2_mockup.jpg" alt="">
     </div>
   </div>
 <!-- project 1 -->
@@ -43,9 +42,8 @@
 
   <div class="black_bg" v-if="modal2 == true">
     <div class="white_bg">
-      <button @click="modal2 = false">close</button>
-      <h4>모달창2</h4>
-      <p>모달 테스트</p>
+      <div @click="modal2 = false"></div>
+      <img src="../../public/img/pj2_mockup.jpg" alt="">
     </div>
   </div>
 <!-- project 2 -->

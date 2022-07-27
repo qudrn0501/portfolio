@@ -115,14 +115,42 @@
   box-sizing: border-box;
   top: 0;
   z-index: 99;
-
 }
 .white_bg {
-  width: 100%; height: 800px;
+  width: 100%; height: 900px;
   background: white;
   border-radius: 8px;
   padding: 20px;
   box-sizing: border-box;
-  
-
+  overflow-y: scroll;
+}
+.white_bg div {
+  position: fixed;
+  top: 50px; right: 80px;
+  width: 40px; height: 40px;
+  background-image: url(../img/Xbox.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.white_bg img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+.white_bg::-webkit-scrollbar {
+  width: 10px;
+}
+.white_bg::-webkit-scrollbar-track {
+  background: #B0B8C1; 
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.white_bg::-webkit-scrollbar-thumb {  
+  background: #6b7684; 
+  border-radius: 5px;
+}
+.white_bg::-webkit-scrollbar-thumb:hover {
+  background: #333d4b; 
 }

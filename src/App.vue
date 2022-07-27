@@ -12,11 +12,11 @@
     <nav class="mapsite"> <!--mapsite menu-->
       <div class="btn_close"></div>
       <ul>
-        <li v-on:click="gotointro">intro</li>
-        <li v-on:click="gotostack">stack</li>
-        <li v-on:click="gotoproject">project</li>
-        <li v-on:click="gotowebclone">webclone</li>
-        <li v-on:click="gotocontact">contact</li>
+        <li class=".main_scroll" v-on:click="gotointro">intro</li>
+        <li class=".main_scroll" v-on:click="gotostack">stack</li>
+        <li class=".main_scroll" v-on:click="gotoproject">project</li>
+        <li class=".main_scroll" v-on:click="gotowebclone">webclone</li>
+        <li class=".main_scroll" v-on:click="gotocontact">contact</li>
       </ul>
     </nav>
   </header>
@@ -88,7 +88,8 @@ export default {
     project,
     webclone,
     contact
-  }
+  },
+
 }
 
 </script>

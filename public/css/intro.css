@@ -59,7 +59,7 @@
   position: absolute;
   bottom: 0px; right: -200px;
   width: 800px; height: 800px;
-  background-image: url(../../public/img/profile1.png);
+  background-image: url(../img/profile1.png);
   background-size: 100% auto;
   background-position: top;
   background-repeat: no-repeat;

@@ -1,7 +1,37 @@
 <template>
-<div class="hello">
- <h1>webclone</h1>
- </div>
+  <section class="clone">
+    <article class="clone_container">
+      <h1>Web Clones</h1>
+      <ul class="clone_box">
+        <li>
+          <img src="../../public/img/singhouse.png" alt="">
+        </li>
+        <li>
+          <img src="../../public/img/pollexzone.png" alt="">
+        </li>
+        <li>
+          <img src="../../public/img/dcaf.png" alt="">
+        </li>
+      </ul>
+      <ul class="clone_content">
+        <li>
+          <h3>싱그러운 집</h3>
+          <p>HTML5 / CSS3 / JavaScript</p>
+          <button onclick="window.open('https://www.naver.com');">Page Link</button>
+        </li>
+        <li>
+          <h3>POLLEXZONE</h3>
+          <p>HTML5 / CSS3 / JavaScript / jQuery</p>
+          <button onclick="window.open('https://www.naver.com');">Page Link</button>
+        </li>
+        <li>
+          <h3>대전문화재단</h3>
+          <p>HTML5 / CSS3 / JavaScript / jQuery</p>
+          <button onclick="window.open('https://www.naver.com');">Page Link</button>
+        </li>
+      </ul>
+    </article>
+  </section>
 </template>
 
 <script>
@@ -13,10 +43,3 @@ export default {
 }
 
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1 {
-  padding-bottom: 1080px;
-}
-</style>
