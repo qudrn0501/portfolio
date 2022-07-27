@@ -72,6 +72,8 @@ export default {
         contact.scrollIntoView({behavior : 'smooth'})
       }
     }
+
+    
   },
   components: {
     intro,

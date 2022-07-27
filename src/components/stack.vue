@@ -1,5 +1,5 @@
 <template>
- <section class="stack">
+ <section class="stack hover">
     <ul class="stack_container">
       <h1>Tech Stacks</h1>
       <li class="stack_apps python">
