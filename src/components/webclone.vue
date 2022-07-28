@@ -16,7 +16,7 @@
       <ul class="clone_content">
         <li>
           <h3>싱그러운 집</h3>
-          <p>HTML5 / CSS3 / JavaScript</p>
+          <p>HTML5 / CSS3 / JavaScript / jQuery</p>
           <button onclick="window.open('https://www.naver.com');">Page Link</button>
         </li>
         <li>

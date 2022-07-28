@@ -12,19 +12,19 @@
     <nav class="mapsite"> <!--mapsite menu-->
       <div class="btn_close"></div>
       <ul>
-        <li class=".main_scroll" v-on:click="gotointro">intro</li>
-        <li class=".main_scroll" v-on:click="gotostack">stack</li>
-        <li class=".main_scroll" v-on:click="gotoproject">project</li>
-        <li class=".main_scroll" v-on:click="gotowebclone">webclone</li>
-        <li class=".main_scroll" v-on:click="gotocontact">contact</li>
+        <li v-on:click="gotointro">intro</li>
+        <li v-on:click="gotostack">stack</li>
+        <li v-on:click="gotoproject">project</li>
+        <li v-on:click="gotowebclone">webclone</li>
+        <li v-on:click="gotocontact">contact</li>
       </ul>
     </nav>
   </header>
-  <intro id="intro"></intro>
-  <stack id="stack"></stack>
-  <project id="project"></project>
-  <webclone id="webclone"></webclone>
-  <contact id="contact"></contact>
+  <intro class=".main_scroll" id="intro"></intro>
+  <stack class=".main_scroll" id="stack"></stack>
+  <project class=".main_scroll" id="project"></project>
+  <webclone class=".main_scroll" id="webclone"></webclone>
+  <contact class=".main_scroll" id="contact"></contact>
   <div class="topbtn" v-on:click="gototop">TOP</div>
 </template>
 

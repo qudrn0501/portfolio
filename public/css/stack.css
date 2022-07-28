@@ -1,6 +1,6 @@
 .stack {
   width: 100%; height: 100vh;
-  padding-top: 80px;
+  padding: 80px 20px 0;
   box-sizing: border-box;
   overflow: hidden;
   background-color: #F9FAFB;
@@ -10,7 +10,7 @@
   max-width: 1280px;
   height: 100%;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 10px;
   box-sizing: border-box;
 }
 .stack_container h1 {
@@ -22,34 +22,36 @@
 }
 .stack_apps {
   position: absolute;
-  width: 200px;
+  width: 210px;
   height: 100px;
   display: flex;
   justify-content: flex-start;
   top: 550px; 
   left: 50%;
   transition: all 0.6s ease-in-out;
+  opacity: 0;
 }
 .stack_apps .app_img {
-  width: 100px;
-  height: 100px;
+  width: 70%;
   background-size: 70% auto;
   background-repeat: no-repeat;
   background-position: center;
 }
 .stack_apps .app_scouter {
   opacity: 0;
-  width: 100px;
-  height: 80px;
-  padding: 10px 0;
+  width: 100%;
+  height: 100%;
   transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .stack_apps:hover .app_scouter {
   opacity: 1;
 }
 .stack_apps .app_scouter p {
   font-family: "P22 Underground";
-  font-size: 20px;
+  font-size: 22px;
   color: #333D4B;
 }
 .stack_apps .app_scouter .gauge {
@@ -58,7 +60,7 @@
 }
 .stack_apps .app_scouter .bar {
   opacity: 0;
-  width: 5px; height: 30px;
+  width: 5px; height: 20px;
   background-color: #1B64DA;
   border-radius: 5px;
   margin-right: 3px;
@@ -70,48 +72,50 @@
 .stack_apps:hover .app_scouter .bar {
   opacity: 1;
 }
+.stack:hover .stack_apps {
+  opacity: 1;
+}
 .stack:hover .python {
-  top: 120px !important; left: 160px !important;
+  top: 8% !important; left: 15% !important;
 }
 .stack:hover .html5 {
-  top: 280px!important; left: 120px!important;
+  top: 25%!important; left: 10%!important;
 }
 .stack:hover .nodejs {
-  top: 440px!important; left: 20px!important;
+  top: 40%!important; left: 25%!important;
 }
 .stack:hover .expressjs {
-  top: 415px!important; left: 275px!important;
+  top: 52%!important; left: 30%!important;
 }
 .stack:hover .heroku {
-  top: 590px!important; left: 50px!important;
+  top: 60%!important; left: 10%!important;
 }
 .stack:hover .git {
-  top: 720px!important; left: 100px!important;
+  top: 86%!important; left: 20%!important;
 }
 .stack:hover .firebase {
-  top: 250px!important; left: 400px!important;
+  top: 20%!important; left: 30%!important;
 }
 .stack:hover .github {
-  top: 350px!important; left: 650px!important;
+  top: 45%!important; left: 50%!important;
 }
 .stack:hover .vscode {
-  top: 250px!important; left: 760px!important;
+  top: 25%!important; left: 55%!important;
 }
 .stack:hover .sublime {
-  width: 220px;
-  top: 120px; left: 1000px;
+  top: 10%!important; left: 73%!important;
 }
 .stack:hover .mysql {
-  top: 250px!important; left: 1050px!important;
+  top: 40%!important; left: 78%!important;
 }
 .stack:hover .javascript {
-  top: 400px!important; left: 1030px!important;
+  top: 55%!important; left: 75%!important;
 }
 .stack:hover .css3 {
-  top: 530px!important; left: 900px!important;
+  top: 70%!important; left: 67%!important;
 }
 .stack:hover .vuejs {
-  top: 700px!important; left: 980px!important;
+  top: 85%!important; left: 78%!important;
 }
 
 .mysql .app_img {
@@ -148,7 +152,7 @@
   background-image: url(../img/sublime.png);
 }
 .sublime .app_scouter {
-  width: 120px;
+  /* width: 120px; */
 }
 .javascript .app_img {
   background-image: url(../img/js.png);
@@ -160,12 +164,34 @@
   background-image: url(../img/vue.png);
 }
 .computer {
-  width: 465px; height: 285px;
+  width: 30%; height: 30%;
   position: absolute;
-  bottom: 120px; left: 50%;
+  bottom: 50px; left: 50%;
   transform: translateX(-50%);
   background-image: url(../img/computer.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* responsive max-width 1280px */
+@media only screen and (max-width: 1280px) {
+
+}
+
+/* responsive max-width 989px */
+@media only screen and (max-width: 989px) {
+  .stack_container h1 {
+    font-size: 48px;
+  }
+}
+
+/* responsive max-width 767px */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* responsive max-width 390px */
+@media only screen and (max-width: 390px) {
+
 }

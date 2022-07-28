@@ -1,6 +1,6 @@
 .clone {
   width: 100%; height: 100vh;
-  padding-top: 80px;
+  padding: 80px 20px 0;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -23,13 +23,13 @@
 }
 .clone_box li {
   width: calc(33.3333% - 13.3333px);
-  height: 550px;
+  height: 480px;
   overflow-x: hidden;
   overflow-y: scroll;
   border-radius: 10px;
 }
 .clone_box li img {
-  width: 413px;
+  width: 100%;
   border: 0.5px solid #B0B8C1;
 }
 .clone_box li::-webkit-scrollbar {
@@ -79,4 +79,49 @@
   text-align: center;
   line-height: 50px;
   cursor: pointer;
+}
+
+/* responsive max-width 1280px */
+@media only screen and (max-width: 1280px) {
+
+}
+
+/* responsive max-width 989px */
+@media only screen and (max-width: 989px) {
+  .clone_container h1 {
+    font-size: 48px;
+  }
+  .clone_content li {
+    position: relative;
+    width: calc(33.3333% - 13.3333px);
+    margin-right: 20px;
+  }
+  .clone_content li:last-child {
+    margin-right: 0px;
+  }
+  .clone_box li img {
+    width: 100%;
+    border: 0.5px solid #B0B8C1;
+  }
+  .clone_content li h3 {
+    font-size: 20px;
+  }
+  .clone_content li p {
+    font-size: 14px;
+  }
+  .clone_content li button {
+    width: 120px; height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+
+/* responsive max-width 767px */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* responsive max-width 390px */
+@media only screen and (max-width: 390px) {
+
 }

@@ -1,7 +1,7 @@
 <template>
  <section class="stack hover">
     <ul class="stack_container">
-      <h1>Tech Stacks</h1>
+      <h1>Tech Stack</h1>
       <li class="stack_apps python">
         <div class="app_img"></div>
         <div class="app_scouter">

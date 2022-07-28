@@ -68,9 +68,9 @@
     </article>
   </section>
 
-  <section class="intro3">
-    <article class="intro3_container">
-      <div class="intro3_left">
+  <section class="intro2">
+    <article class="intro2_container">
+      <div class="intro2_left">
         <div class="title">
           <div>
             <span>3</span>
@@ -79,7 +79,7 @@
           <h2>Other<br>Industries</h2>
         </div>
       </div>
-      <div class="intro3_right">
+      <div class="intro2_right">
         <div class="subject">
           다양한 분야에서<br> 
           <span>수많은 경험</span>을 쌓았습니다
