@@ -6,7 +6,7 @@
     </div>
   </div>
 <!-- project 1 -->
-  <section class="project">
+  <section class="project scroll" id="project">
     <article class="project_container">
       <h1>Project 1</h1>
       <ul class="pjt_subject">
@@ -47,7 +47,7 @@
     </div>
   </div>
 <!-- project 2 -->
-  <section class="project">
+  <section class="project scroll">
     <article class="project_container">
       <h1>Project 2</h1>
       <ul class="pjt_subject">

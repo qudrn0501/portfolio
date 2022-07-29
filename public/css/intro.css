@@ -178,7 +178,7 @@
   }
   .intro_container .intro_text .intro_count div {
     width: 150px; height: 75px;
-    font-size: 26px; line-height: 75px;
+    font-size: 24px; line-height: 75px;
   }
   .intro_img {
     bottom: 0px; right: -200px;
@@ -227,68 +227,125 @@
 
 /* responsive max-width 767px */
 @media only screen and (max-width: 767px) {
- /* intro 1st */
- .intro_container::after {
-  top: 180px; right: -400px;
-  width: 900px; height: 900px;
-}.intro_container::before {
-  top: 50px; right: 60px;
-  width: 400px; height: 400px;
-}
-.intro_container .intro_text h1 {
-  color: #191F28;
-  font-size: 70px; font-weight: medium; 
-}
-.intro_container .intro_text .intro_count div {
-  width: 150px; height: 75px;
-  font-size: 26px; line-height: 75px;
-}
-.intro_img {
-  bottom: 0px; right: -200px;
-  width: 750px; height: 750px;
+  /* intro 1st */
+  .intro_container {
+    padding: 0 20px;
+  }
+  .intro_container::after {
+    top: 470px;
+    right: -90px;
+    width: 450px;
+    height: 450px;
+  }
+  .intro_container::before {
+    top: 390px;
+    right: 110px;
+    width: 250px;
+    height: 250px;
+  }
+  .intro_container .intro_text {
+    margin-left: 0;
+    margin-top: 60px;
+    z-index: 10;
+  }
+  .intro_container .intro_text h1 {
+    font-size: 60px;
+    line-height: 74px;
+  }
+  .intro_container .intro_text .intro_count div:first-child {
+    margin-right: 20px;
+  }
+  .intro_img {
+    bottom: -240px;
+    right: -60px;
+    width: 450px;
+    height: 750px;
+  }
+
+  /* intro 2nd page */
+  .intro2 {
+    padding-top: 80px;
+  }
+  .intro2_container {
+    padding: 20px 20px 0;
+    box-sizing: border-box;
+    display: block;
+  }
+  .intro2_left {
+    width: 100%;
+    height: 152px;
+    padding-top: 0px;
+    padding-left: 0px;
+    box-sizing: border-box;
+  }
+  .intro2_left .title {
+    font-family: "P22 Underground";
+  }
+  .intro2_left .title div {
+    display: flex;
+    align-items: flex-end;
+  }
+  .intro2_left .title div h1  {
+    font-size: 36px;
+  }
+  .intro2_left .title div span  {
+    font-size: 80px;
+    line-height: 80px;
+    color: #1B64DA;
+    margin-right: 15px;
+  }
+  .intro2_left .title h2  {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .intro2_right {
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    box-sizing: border-box;
+  }
+  .intro2_right .subject {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+  .intro2_right ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .intro2_right ul li {
+    width: 50%;
+  }
+  .intro2_right ul li .subtitle_first {
+    margin-bottom: 68px;
+  }
+  .intro2_right ul li .subtitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333D4B;
+    margin-bottom: 10px;
+  }
+  .intro2_right ul li p{
+    font-size: 16px;
+    color: #6B7684;
+  }
+  .intro2_right ul li span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1B64DA;
+    margin-left: 0px;
+  }
+  .intro2_right ul li .subtitle_box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+
 }
 
-/* intro 2nd page */
-.intro2_left {
-  padding-left: 60px;
-}
-.intro2_left .title div h1  {
-  font-size: 36px;
-}
-.intro2_left .title div span  {
-  font-size: 80px;
-  line-height: 80px;
-}
-.intro2_left .title h2  {
-  font-size: 36px;
-  line-height: 40px;
-}
-.intro2_right {
-  width: 100%; height: 100%;
-}
-.intro2_right .subject {
-  font-size: 32px;
-  line-height: 48px;
-  margin-bottom: 80px;
-}
-.intro2_right ul li .subtitle {
-  font-size: 24px;
-}
-.intro2_right ul li p{
-  font-size: 14px;
-}
-.intro2_right ul li .subtitle_box {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-bottom: 10px;
-}
-.intro2_right ul li span{
-  margin-left: 0px;
-}
-}
-
-/* responsive max-width 390px */
-@media only screen and (max-width: 390px) {
+/* responsive max-width 480px */
+@media only screen and (max-width: 480px) {
 
 }

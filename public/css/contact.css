@@ -106,7 +106,81 @@
 
 /* responsive max-width 767px */
 @media only screen and (max-width: 767px) {
-
+  .contact_container {
+    display: block;
+  }
+  .contact_container::after {
+    top: 470px;
+    right: -90px;
+    width: 450px;
+    height: 450px;
+  }.contact_container::before {
+    top: 390px;
+    right: 110px;
+    width: 250px;
+    height: 250px;
+  }
+  .contact_text {
+    position: relative;
+    z-index: 50;
+  }
+  .contact_text h2 {
+    font-family: "P22 Underground";
+    font-size: 58px;
+    color: #191F28;
+    margin-bottom: 40px;
+  }
+  .contact_text p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333D4B;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+  .contact_text p span {
+    color: #1B64DA;
+  }
+  .contact_img {
+    bottom: -223px;
+    right: -10px;
+    width: 360px;
+    height: 750px;
+  }
+  .contact_btn {
+    width: 196px; height: 50px;
+    background-color: #3182F6;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    
+  }
+  .contact_on {
+    position: absolute;
+    width: 413px; height: 160px;
+    background-color: #333D4B;
+    border-radius: 10px;
+    font-family: "P22 Underground";
+    font-size: 22px;
+    color: #fff;
+    line-height: 50px;
+    padding-left: 22px;
+    box-sizing: border-box;
+    top: 257px; left: 0px;
+  }
+  .contact_close {
+    position: absolute;
+    top: 20px; right: 20px;
+    width: 30px; height: 30px;
+    background-image: url(../img/Xbox.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
 }
 
 /* responsive max-width 390px */

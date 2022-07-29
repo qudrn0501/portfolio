@@ -1,5 +1,5 @@
 <template>
-  <section class="intro">
+  <section class="intro scroll" id="intro">
     <article class="intro_container">
       <div class="intro_text">
         <h1>Possibliity<br>Shines<br>Here!</h1>
@@ -12,7 +12,7 @@
     </article>
   </section>
 
-  <section class="intro2">
+  <section class="intro2 scroll" id="profile">
     <article class="intro2_container">
       <div class="intro2_left">
         <div class="title">
@@ -68,7 +68,7 @@
     </article>
   </section>
 
-  <section class="intro2">
+  <section class="intro2 scroll">
     <article class="intro2_container">
       <div class="intro2_left">
         <div class="title">

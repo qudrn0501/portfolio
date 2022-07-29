@@ -1,5 +1,5 @@
 <template>
-  <section class="clone">
+  <section class="clone scroll">
     <article class="clone_container">
       <h1>Web Clones</h1>
       <ul class="clone_box">

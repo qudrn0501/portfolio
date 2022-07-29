@@ -1,5 +1,5 @@
 <template>
- <section class="contact">
+ <section class="contact scroll">
     <article class="contact_container">
       <div class="contact_text">
         <h2>Contact Me</h2>

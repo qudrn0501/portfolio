@@ -1,31 +1,33 @@
 <template>
   
-
   <header>
     <div class="logo">bkKim.</div>
-    <div class="btn_nav">
+    <div class="btn_nav" @click="menu = true">
       <span></span>
       <span></span>
       <span></span>
     </div>
   
-    <nav class="mapsite"> <!--mapsite menu-->
-      <div class="btn_close"></div>
-      <ul>
-        <li v-on:click="gotointro">intro</li>
-        <li v-on:click="gotostack">stack</li>
-        <li v-on:click="gotoproject">project</li>
-        <li v-on:click="gotowebclone">webclone</li>
-        <li v-on:click="gotocontact">contact</li>
-      </ul>
+    <nav class="mapsite" v-if="menu == true" @click="menu = false"> <!--mapsite menu-->
+      <div class="mapsite_content">
+        <div class="btn_close" @click="menu = false"></div>
+        <ul>
+          <li v-on:click="gotointro">Home</li>
+          <li v-on:click="gotoprofile">Introduce</li>
+          <li v-on:click="gotostack">Tech Stack</li>
+          <li v-on:click="gotoproject">Projects</li>
+          <li v-on:click="gotowebclone">Web Clone</li>
+          <li v-on:click="gotocontact">Contact</li>
+        </ul>
+      </div>
     </nav>
   </header>
-  <intro class=".main_scroll" id="intro"></intro>
-  <stack class=".main_scroll" id="stack"></stack>
-  <project class=".main_scroll" id="project"></project>
-  <webclone class=".main_scroll" id="webclone"></webclone>
-  <contact class=".main_scroll" id="contact"></contact>
-  <div class="topbtn" v-on:click="gototop">TOP</div>
+  <intro></intro>
+  <stack></stack>
+  <project></project>
+  <webclone id="webclone"></webclone>
+  <contact id="contact"></contact>
+  <div id="container" class="topbtn" v-on:click="gotointro">TOP</div>
 </template>
 
 <script>
@@ -39,7 +41,7 @@ export default {
   name: 'App',
   data() {
     return {
-      modal2 : false,
+      menu : false,
     }
   },
   methods: {
@@ -49,7 +51,13 @@ export default {
         contact.scrollIntoView({behavior : 'smooth'})
       }
     },
-    gotoskill() {
+    gotoprofile() {
+      const contact = document.getElementById('profile')
+      if(contact) {
+        contact.scrollIntoView({behavior : 'smooth'})
+      }
+    },
+    gotostack() {
       const contact = document.getElementById('stack')
       if(contact) {
         contact.scrollIntoView({behavior : 'smooth'})
@@ -73,21 +81,13 @@ export default {
         contact.scrollIntoView({behavior : 'smooth'})
       }
     },
-    gototop() {
-      const contact = document.getElementById('top')
-      if(contact) {
-        contact.scrollIntoView({behavior : 'smooth'})
-      }
-    }
-
-    
   },
   components: {
     intro,
     stack,
     project,
     webclone,
-    contact
+    contact,
   },
 
 }
