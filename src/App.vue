@@ -27,7 +27,7 @@
   <project></project>
   <webclone id="webclone"></webclone>
   <contact id="contact"></contact>
-  <div id="container" class="topbtn" v-on:click="gotointro">TOP</div>
+  <div id="container" class="topbtn moveTopBtn" v-on:click="gotointro">TOP</div>
 </template>
 
 <script>

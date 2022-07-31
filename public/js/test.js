@@ -11,3 +11,4 @@ export default test
 // es6 문법의 export, import
 // 2번부터 시작
 // export { value, method }
+
