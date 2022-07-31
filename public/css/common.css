@@ -89,6 +89,7 @@ header .btn_nav span:last-child {
   font-size: 20px;
   cursor: pointer;
   border: 0.5px solid #fff;
+  opacity: 0;
 }
 
 
@@ -143,6 +144,7 @@ header .btn_nav span:last-child {
   .mapsite_content li {
     font-size: 26px;
   }
+
 
 
  }
