@@ -36,6 +36,8 @@ import stack from './components/stack.vue'
 import project from './components/project.vue'
 import webclone from './components/webclone.vue'
 import contact from './components/contact.vue'
+import test from '../public/js/test'
+// import { value, method } from '../public/js/test'
 
 export default {
   name: 'App',
@@ -44,6 +46,14 @@ export default {
       menu : false,
     }
   },
+  setup() {
+    console.log(test.value)
+    test.method('hello!')
+  },
+  /* setup() {
+    console.log(test.value)
+    test.method('hello!')
+  } */
   methods: {
     gotointro() {
       const contact = document.getElementById('intro')
