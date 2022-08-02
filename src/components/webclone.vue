@@ -21,7 +21,8 @@
       >
         <swiper-slide class="clone_div">
           <div class="clone_page">
-            <img src="../../public/img/singhouse.png" alt="">
+            <img class="clone_pc" src="../../public/img/singhouse.png" alt="">
+            <img class="clone_mobile" src="../../public/img/singhouse_mob.png" alt="">
           </div>
           <li class="clone_content">
             <h3>싱그러운 집</h3>
@@ -32,7 +33,8 @@
 
         <swiper-slide class="clone_div">
           <div class="clone_page">
-            <img src="../../public/img/pollexzone.png" alt="">
+            <img class="clone_pc" src="../../public/img/pollexzone.png" alt="">
+            <img class="clone_mobile" src="../../public/img/pollex_mob.png" alt="">
           </div>
           <li class="clone_content">
             <h3>POLLEXZONE</h3>
@@ -43,7 +45,8 @@
 
         <swiper-slide class="clone_div">
           <div class="clone_page">
-            <img src="../../public/img/dcaf.png" alt="">
+            <img class="clone_pc" src="../../public/img/dcaf.png" alt="">
+            <img class="clone_mobile" src="../../public/img/dcaf.png" alt="">
           </div>
           <li class="clone_content">
             <h3>대전문화재단</h3>
@@ -51,7 +54,7 @@
             <button onclick="window.open('https://www.naver.com');">Page Link</button>
           </li>
         </swiper-slide>
-        
+
       </swiper>
       <!-- <ul class="clone_box">
         <li class="clone_">

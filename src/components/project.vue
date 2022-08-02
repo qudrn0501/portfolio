@@ -32,10 +32,12 @@
         @slideChange="onSlideChange"
       >
         <swiper-slide class="pjt_page">
-          <img src="../../public/img/seomun.png" alt="">
+          <img class="pjt_pc" src="../../public/img/seomun.png" alt="">
+          <img class="pjt_mob" src="../../public/img/seomun_mob.png" alt="">
         </swiper-slide>
         <swiper-slide class="pjt_page">
-          <img src="../../public/img/seomun.png" alt="">
+          <img class="pjt_pc" src="../../public/img/seomun_notice_pc.png" alt="">
+          <img class="pjt_mob" src="../../public/img/seomun_notice_mob.png" alt="">
         </swiper-slide>
       </swiper>
       <!-- <div class="pjt_page">
@@ -91,10 +93,12 @@
         @slideChange="onSlideChange"
       >
         <swiper-slide class="pjt_page pjt_page2">
-          <img src="../../public/img/touslesjours.png" alt="">
+          <img class="pjt_pc" src="../../public/img/touslesjours.png" alt="">
+          <img class="pjt_mob" src="../../public/img/tous_mob.png" alt="">
         </swiper-slide>
         <swiper-slide class="pjt_page pjt_page2">
-          <img src="../../public/img/touslesjours.png" alt="">
+          <img class="pjt_pc" src="../../public/img/tous_event_pc.png" alt="">
+          <img class="pjt_mob" src="../../public/img/tous_event_mob.png" alt="">
         </swiper-slide>
       </swiper>
       <!-- <div class="pjt_page pjt_page2">

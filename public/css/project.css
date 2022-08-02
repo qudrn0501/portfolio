@@ -4,6 +4,9 @@
   box-sizing: border-box;
   overflow: hidden;
 }
+.pjt_mob {
+  display: none;
+}
 .project_container {
   position: relative;
   max-width: 1280px;
@@ -206,6 +209,12 @@
 @media only screen and (max-width: 480px) {
   .project {
     padding: 40px 20px 0;
+  }
+  .pjt_pc {
+    display: none;
+  }
+  .pjt_mob {
+    display: block;
   }
   .pjt_subject {
     display: flex;

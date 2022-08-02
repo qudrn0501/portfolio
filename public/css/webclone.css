@@ -4,6 +4,9 @@
   box-sizing: border-box;
   overflow: hidden;
 }
+.clone_mobile {
+  display: none;
+}
 .clone_container {
   position: relative;
   max-width: 1280px;
@@ -138,6 +141,12 @@
 @media only screen and (max-width: 480px) {
   .clone {
     padding: 40px 20px 0;
+  }
+  .clone_pc {
+    display: none;
+  }
+  .clone_mobile {
+    display: block;
   }
   .clone_container h1 {
     font-size: 30px;
