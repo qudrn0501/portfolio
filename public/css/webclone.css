@@ -121,6 +121,12 @@
   .clone_div {
     width: 100% !important;
   }
+  .clone_box .clone_page {
+    margin-bottom: 20px;
+  }
+  .clone_container .swiper-horizontal>.swiper-scrollbar, .clone_container .swiper-scrollbar.swiper-scrollbar-horizontal {
+    bottom: 135px !important;
+  }
 }
 
 /* responsive max-width 767px */
@@ -186,5 +192,8 @@
     height: 40px;
     font-size: 14px;
     line-height: 40px;
+  }
+  .clone_container .swiper-horizontal>.swiper-scrollbar, .clone_container .swiper-scrollbar.swiper-scrollbar-horizontal {
+    bottom: 90px !important;
   }
 }
