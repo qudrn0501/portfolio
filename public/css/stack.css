@@ -111,6 +111,7 @@
 }
 .sublime.on {
   top: 10%!important; left: 80%!important;
+  width: 220px;
 }
 .mysql.on {
   top: 40%!important; left: 88%!important;
@@ -219,7 +220,9 @@
     margin-right: 2px;
   }
 
- 
+  .sublime.on {
+    width: 190px;
+  }
   .stack:hover .sublime {
     left: 73%!important;
   }
@@ -254,6 +257,9 @@
     margin-right: 2px;
   }
  
+  .sublime.on {
+    width: 160px;
+  } 
   .stack:hover .mysql {
     left: 81%!important;
   }
@@ -286,6 +292,9 @@
     margin-right: 2px;
   }
  
+  .sublime.on {
+    width: 150px;
+  }
   .stack:hover .sublime {
     left: 70%!important;
   }
