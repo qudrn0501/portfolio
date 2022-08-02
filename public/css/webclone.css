@@ -39,7 +39,7 @@
   border: 0.5px solid #B0B8C1;
 }
 .clone_box .clone_page::-webkit-scrollbar {
-  width: 10px;
+  width: 14px;
 }
 .clone_box .clone_page::-webkit-scrollbar-track {
   background: #B0B8C1; 
@@ -172,7 +172,7 @@
     border: 0.5px solid #B0B8C1;
   }
   .clone_box .clone_page::-webkit-scrollbar {
-    width: 10px;
+    width: 14px;
   }
   .clone_box .clone_page::-webkit-scrollbar-track {
     background: #B0B8C1; 
