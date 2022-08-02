@@ -72,7 +72,7 @@
 }
 .contact_on {
   position: absolute;
-  width: 413px; height: 160px;
+  width: 600px; height: 220px;
   background-color: #333D4B;
   border-radius: 10px;
   font-family: "P22 Underground";
@@ -160,11 +160,11 @@
   }
   .contact_on {
     position: absolute;
-    width: 413px; height: 160px;
+    width: 300px; height: 220px;
     background-color: #333D4B;
     border-radius: 10px;
     font-family: "P22 Underground";
-    font-size: 22px;
+    font-size: 16px;
     color: #fff;
     line-height: 50px;
     padding-left: 22px;

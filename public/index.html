@@ -100,4 +100,22 @@
   </script>
 
 
+  <script>
+    window.onscroll = function () {
+      scrollE();
+    }
+
+    function scrollF() {
+      var apps = document.querySelector('.stack_apps');
+      var appmove = -1150 + window.scrollY
+      if (appmove < window.innerHeight) {
+        $('.stack_apps').removeClass('on');
+      } else {
+        $('.stack_apps').addClass('on');
+      }
+    }
+    window.addEventListener('load', scrollF);
+    window.addEventListener('scroll', scrollF);
+  </script>
+
 </html>

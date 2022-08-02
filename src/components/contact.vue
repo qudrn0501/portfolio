@@ -11,6 +11,7 @@
         </div>
         <div class="contact_on" v-if="contact == true">
           <div class="contact_close" @click="contact = false"></div>
+          Developer : Byung Koo Kim<br>
           E-mail : qudrn0501@naver.com<br>
           Mobile : 010-8709-5900<br>
           github : https://github.com/qudrn0501<br>

@@ -19,9 +19,28 @@
           <button onclick="window.open('https://www.naver.com');">Page Link</button>
         </li>
       </ul>
-      <div class="pjt_page">
+      
+      <swiper
+        :scrollbar="{
+          hide: false,
+        }"
+        :slides-per-view="1"
+        :space-between="50"
+        :modules="modules"
+        class="mySwiper"
+        @swiper="onSwiper"
+        @slideChange="onSlideChange"
+      >
+        <swiper-slide class="pjt_page">
+          <img src="../../public/img/seomun.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="pjt_page">
+          <img src="../../public/img/seomun.png" alt="">
+        </swiper-slide>
+      </swiper>
+      <!-- <div class="pjt_page">
         <img src="../../public/img/seomun.png" alt="">
-      </div>
+      </div> -->
       <ul class="pjt_content">
         <li>
           <h3>사용 언어</h3>
@@ -53,16 +72,34 @@
       <ul class="pjt_subject">
         <li>
           <h3>뚜레쥬르</h3>
-          <span>팀 프로젝트 (3인 규모 / 약 37.5% 담당)</span>
+          <span>팀 프로젝트</span>
         </li>
         <li>
           <button class="pjt2_open" @click="modal2 = true">Mockup</button>
           <button onclick="window.open('https://www.naver.com');">Page Link</button>
         </li>
       </ul>
-      <div class="pjt_page pjt_page2">
+      <swiper
+        :scrollbar="{
+          hide: false,
+        }"
+        :slides-per-view="1"
+        :space-between="50"
+        :modules="modules"
+        class="mySwiper"
+        @swiper="onSwiper"
+        @slideChange="onSlideChange"
+      >
+        <swiper-slide class="pjt_page pjt_page2">
+          <img src="../../public/img/touslesjours.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="pjt_page pjt_page2">
+          <img src="../../public/img/touslesjours.png" alt="">
+        </swiper-slide>
+      </swiper>
+      <!-- <div class="pjt_page pjt_page2">
         <img src="../../public/img/touslesjours.png" alt="">
-      </div>
+      </div> -->
       <ul class="pjt_content">
         <li>
           <h3>사용 언어</h3>
@@ -76,6 +113,7 @@
         <li>
           <h3>제작 담당 페이지</h3>
           <p>Header / 메인 페이지 / 이벤트 페이지 / 매장찾기 페이지</p>
+          <p>3인 / 약 37.5% 담당</p>
         </li>
       </ul>
     </article>
@@ -83,12 +121,35 @@
 </template>
 
 <script>
+ // Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
+// Import Swiper styles
+import 'swiper/css';
+import "swiper/css/scrollbar";
+// import required modules
+import { Scrollbar } from "swiper";
+
 
 export default {
   name: 'project-page',
   components: {
-    
+    Swiper,
+    SwiperSlide,
   },
+  setup() {
+      const onSwiper = (swiper) => {
+        console.log(swiper);
+      };
+      const onSlideChange = () => {
+        console.log('slide change');
+      };
+      return {
+        onSwiper,
+        onSlideChange,
+        modules: [Scrollbar],
+      };
+    },
   data() {
     return {
       modal1: false,

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "P22 Underground";
-  src: url(font/P22\ Johnston\ Underground\ Regular.ttf);
+  src: url(../font/P22\ Johnston\ Underground\ Regular.ttf);
 }
 body {
 font-family: 'Noto Sans KR', sans-serif;
@@ -90,6 +90,7 @@ header .btn_nav span:last-child {
   cursor: pointer;
   border: 0.5px solid #fff;
   opacity: 0;
+  transition: all 0.2s ease-in-out;
 }
 
 
