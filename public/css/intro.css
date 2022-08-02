@@ -368,6 +368,24 @@
     font-size: 20px;
     line-height: 60px;
   }
+  .intro_img {
+    bottom: -330px;
+    right: -50px;
+    width: 85vw;
+    height: 750px;
+  }
+  .intro_container::before {
+    top: 300px;
+    right: 100px;
+    width: 200px;
+    height: 200px;
+  }
+  .intro_container::after {
+    top: 360px;
+    right: -120px;
+    width: 400px;
+    height: 400px;
+  }
   /* intro 2nd page */
   .intro2 {
     padding-top: 40px;

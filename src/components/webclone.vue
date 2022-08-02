@@ -7,7 +7,7 @@
           hide: false,
         }"
         :breakpoints="{
-          640: {
+          989: {
              slidesPerView: 3,
              spaceBetween: 13.3333
           }
@@ -29,6 +29,7 @@
             <button onclick="window.open('https://www.naver.com');">Page Link</button>
           </li>
         </swiper-slide>
+
         <swiper-slide class="clone_div">
           <div class="clone_page">
             <img src="../../public/img/pollexzone.png" alt="">
@@ -39,6 +40,7 @@
             <button onclick="window.open('https://www.naver.com');">Page Link</button>
           </li>
         </swiper-slide>
+
         <swiper-slide class="clone_div">
           <div class="clone_page">
             <img src="../../public/img/dcaf.png" alt="">
@@ -49,6 +51,7 @@
             <button onclick="window.open('https://www.naver.com');">Page Link</button>
           </li>
         </swiper-slide>
+        
       </swiper>
       <!-- <ul class="clone_box">
         <li class="clone_">
