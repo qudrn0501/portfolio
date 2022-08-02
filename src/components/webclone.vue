@@ -46,7 +46,7 @@
         <swiper-slide class="clone_div">
           <div class="clone_page">
             <img class="clone_pc" src="../../public/img/dcaf.png" alt="">
-            <img class="clone_mobile" src="../../public/img/dcaf.png" alt="">
+            <img class="clone_mobile" src="../../public/img/dcaf_mob.png" alt="">
           </div>
           <li class="clone_content">
             <h3>대전문화재단</h3>
