@@ -2,7 +2,7 @@
   <div class="black_bg" v-if="modal1 == true">
     <div class="white_bg">
       <div @click="modal1 = false"></div>
-      <img src="../../public/img/pj2_mockup.jpg" alt="">
+      <img src="../../public/img/pj1_mockup.jpg" alt="">
     </div>
   </div>
 <!-- project 1 -->
@@ -16,7 +16,7 @@
         </li>
         <li>
           <button class="pjt2_open" @click="modal1 = true">Mockup</button>
-          <button onclick="window.open('https://www.naver.com');">Page Link</button>
+          <button onclick="window.open('https://seomunnightmarket.herokuapp.com');">Page Link</button>
         </li>
       </ul>
       
@@ -78,7 +78,7 @@
         </li>
         <li>
           <button class="pjt2_open" @click="modal2 = true">Mockup</button>
-          <button onclick="window.open('https://www.naver.com');">Page Link</button>
+          <button onclick="window.open('https://team-tous.herokuapp.com');">Page Link</button>
         </li>
       </ul>
       <swiper
