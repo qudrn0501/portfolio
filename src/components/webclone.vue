@@ -27,7 +27,7 @@
           <li class="clone_content">
             <h3>싱그러운 집</h3>
             <p>HTML5 / CSS3 / JavaScript / jQuery</p>
-            <button onclick="window.open('https://www.naver.com');">Page Link</button>
+            <button onclick="window.open('http://qudrn0501.dothome.co.kr/singhouse/singhouse_main.html');">Page Link</button>
           </li>
         </swiper-slide>
 
@@ -39,7 +39,7 @@
           <li class="clone_content">
             <h3>POLLEXZONE</h3>
             <p>HTML5 / CSS3 / JavaScript / jQuery</p>
-            <button onclick="window.open('https://www.naver.com');">Page Link</button>
+            <button onclick="window.open('http://qudrn0501.dothome.co.kr/pollexzone/pollexzone_main.html');">Page Link</button>
           </li>
         </swiper-slide>
 
@@ -51,7 +51,7 @@
           <li class="clone_content">
             <h3>대전문화재단</h3>
             <p>HTML5 / CSS3 / JavaScript / jQuery</p>
-            <button onclick="window.open('https://www.naver.com');">Page Link</button>
+            <button onclick="window.open('http://qudrn0501.dothome.co.kr/dcaf/dcaf.html');">Page Link</button>
           </li>
         </swiper-slide>
 
