@@ -22,7 +22,7 @@
 }
 .stack_apps {
   position: absolute;
-  width: 210px;
+  width: 220px;
   height: 100px;
   display: flex;
   justify-content: flex-start;
