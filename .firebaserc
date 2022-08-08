@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "project20220720"
-  }
+    "default": "portfolio-51fdb",
+    "staging": "portfolio-51fdb"
+  },
+  "targets": {},
+  "etags": {}
 }
