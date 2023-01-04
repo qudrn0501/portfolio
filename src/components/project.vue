@@ -16,7 +16,7 @@
         </li>
         <li>
           <button class="pjt2_open" @click="modal1 = true">Mockup</button>
-          <button onclick="window.open('https://seomunnightmarket.herokuapp.com');">Page Link</button>
+          <button onclick="window.open('https://seomun.fly.dev/');">Page Link</button>
         </li>
       </ul>
       
@@ -78,7 +78,7 @@
         </li>
         <li>
           <button class="pjt2_open" @click="modal2 = true">Mockup</button>
-          <button onclick="window.open('https://team-tous.herokuapp.com');">Page Link</button>
+          <button onclick="window.open('https://team-tous.fly.dev/');">Page Link</button>
         </li>
       </ul>
       <swiper

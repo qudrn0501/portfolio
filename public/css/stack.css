@@ -90,7 +90,7 @@
   top: 52%!important; left: 20%!important;
   transition-delay: 0.2s;
 }
-.heroku.on {
+.flyio.on {
   top: 60%!important; left: 5%!important;
   transition-delay: 0.1s;
 }
@@ -109,7 +109,7 @@
   top: 25%!important; left: 55%!important;
   transition-delay: 0.2s;
 }
-.sublime.on {
+.react.on {
   top: 10%!important; left: 80%!important;
   width: 220px;
 }
@@ -144,8 +144,8 @@
 .expressjs .app_img {
   background-image: url(../img/Express.png);
 }
-.heroku .app_img {
-  background-image: url(../img/heroku.png);
+.flyio .app_img {
+  background-image: url(../img/flyio.png);
 }
 .git .app_img {
   background-image: url(../img/git.png);
@@ -159,8 +159,8 @@
 .vscode .app_img {
   background-image: url(../img/vscode.png);
 }
-.sublime .app_img {
-  background-image: url(../img/sublime.png);
+.react .app_img {
+  background-image: url(../img/react.png);
 }
 .javascript .app_img {
   background-image: url(../img/js.png);
@@ -185,7 +185,7 @@
 /* responsive max-width 1280px */
 @media only screen and (max-width: 1280px) {
 
-  .stack:hover .sublime {
+  .stack:hover .react {
     left: 80%!important;
   }
   .stack:hover .mysql {
@@ -220,10 +220,10 @@
     margin-right: 2px;
   }
 
-  .sublime.on {
+  .react.on {
     width: 190px;
   }
-  .stack:hover .sublime {
+  .stack:hover .react {
     left: 73%!important;
   }
   .stack:hover .mysql {
@@ -257,7 +257,7 @@
     margin-right: 2px;
   }
  
-  .sublime.on {
+  .react.on {
     width: 160px;
   } 
   .stack:hover .mysql {
@@ -292,10 +292,10 @@
     margin-right: 2px;
   }
  
-  .sublime.on {
+  .react.on {
     width: 150px;
   }
-  .stack:hover .sublime {
+  .stack:hover .react {
     left: 70%!important;
   }
   .stack:hover .mysql {

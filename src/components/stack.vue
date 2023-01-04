@@ -74,10 +74,10 @@
           </div>
         </div>
       </li>  
-      <li class="stack_apps heroku">
+      <li class="stack_apps flyio">
         <div class="app_img"></div>
         <div class="app_scouter">
-          <p>heroku</p>
+          <p>Fly.io</p>
           <div class="gauge">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -164,10 +164,10 @@
           </div>
         </div>
       </li>  
-      <li class="stack_apps sublime">
+      <li class="stack_apps react">
         <div class="app_img"></div>
         <div class="app_scouter">
-          <p>Sublime Text</p>
+          <p>React.js</p>
           <div class="gauge">
             <span class="bar"></span>
             <span class="bar"></span>
